@@ -69,13 +69,36 @@ div.campo > label{
     display: none;
 }
 
+div.campo span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo input{
+    background-color: var(--verde);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-11.8px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+div.campo input:focus-within{
+    background-color: white;
+}
+
 div.campo{
     background-color: var(--roxo);
     display: block;
     height: 40px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    border: 2px solid var(--roxo);
 }
 
 input[type=submit]{
